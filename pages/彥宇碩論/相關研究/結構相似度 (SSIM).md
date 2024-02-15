@@ -1,0 +1,3 @@
+- 全名為structural similarity (結構相似性），主要是比較圖片之間的亮度、對比度、結構。首先來定義這三者。
+-
+- ![1 QvH19m4o_5l_JGQfsjS4VQ.webp](../assets/1_QvH19m4o_5l_JGQfsjS4VQ_1706445993583_0.webp)

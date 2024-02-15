@@ -1,0 +1,7 @@
+- 全名為Peak signal-to-noise ratio（峰值訊噪比），主要是透過mean square error的概念來計算兩張圖片的差異。首先來定義MSE的公式，如下：
+- ![1 kfnx3fGjoCOrSqo15ChBYg.webp](../assets/1_kfnx3fGjoCOrSqo15ChBYg_1706445066735_0.webp)
+- I為原始圖片，K為I經過壓縮後的圖片，而i, j分別代表的是圖片中每一個pixels的位置，m和n則代表圖片的長寬。簡單來說就是去計算每個pixels的差異然後加總起來取平均。
+- 在來定義PSNR的公式，如下：
+- ![1 Y8TI3BdBd_oeO8DvNvWp_A.png](../assets/1_Y8TI3BdBd_oeO8DvNvWp_A_1706445089493_0.png)
+- 這裡的MAX指的是圖像訊號的最大值，簡單來說，如果圖像的每個採樣點是8bit，那麼最大值就是255，以此類推。因此只需要將先前定義的MSE帶入這個公式即可。
+- 從這個公式來看，MSE在分母，因此兩張圖片越相似，MSE越小，也就代表PSNR越大。
