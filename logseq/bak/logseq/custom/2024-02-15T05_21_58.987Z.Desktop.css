@@ -1,5 +1,5 @@
 :root {
-  --ct-text-size: 24px;
+  --ct-text-size: 18px;
   --ct-line-height: 1.6;
   --ls-font-family: "JetBrains Mono";
   --ct-page-title-font-family: var(--ls-font-family);

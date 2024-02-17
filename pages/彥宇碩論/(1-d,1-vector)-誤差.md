@@ -1,0 +1,7 @@
+- 誤差分為
+	- 第i個 誤差 $e_{i}=c_{i}-s_{i}$
+	- 總誤差  $e=\sum_{i=1}^{n}\left|c_{i}-s_{i}\right|=\sum_{i=1}^{n}|e_{i}|$
+	- 第i個 到 第j個 的誤差和 $e_{i,j}=\sum_{i}^{j}\left|c_{i}-s_{i}\right|=\sum_{i}^{j}|e_{i}|$
+-
+-
+-
