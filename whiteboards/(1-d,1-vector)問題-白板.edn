@@ -1,5 +1,5 @@
 {:blocks (
-{:block/created-at 1707974561685
+{:block/created-at 1708426140322
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -10,13 +10,13 @@
 :borderRadius 8
 :index 0
 :scale [1 1]
-:pageId "一維資料用一個向量k表示(1-d,1-vector)"
-:scaleLevel "xl"
+:pageId "(1-d,1-vector)問題"
+:scaleLevel "xxl"
 :fill "purple"
 :compact false
 :isAutoResizing false
 :type "logseq-portal"
-:size [960 80]
+:size [552 120]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -25,18 +25,18 @@
 :point [-488 -32]
 :parentId "65cd999f-dacd-4c90-8584-53d222d92bab"
 :collapsedHeight 2098.9770565282643
-:nonce 1707973032869}}
-:block/updated-at 1707974561685} 
+:nonce 1707973032947}}
+:block/updated-at 1708426140322} 
 {:block/content ""
 :block/format :markdown
 :block/left 
-{:block/uuid #uuid "65cd999f-dacd-4c90-8584-53d222d92bab"}
+{:block/uuid #uuid "65d481fb-c141-43b0-873a-ef64ba6ec46c"}
 :block/parent 
-{:block/uuid #uuid "65cd999f-dacd-4c90-8584-53d222d92bab"}
+{:block/uuid #uuid "65d481fb-c141-43b0-873a-ef64ba6ec46c"}
 :block/properties 
 {}
 :block/uuid #uuid "65cd9ad9-b26c-40dd-8619-747b1557d84f"} 
-{:block/created-at 1707975333551
+{:block/created-at 1708426083291
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -46,70 +46,6 @@
 :collapsed true
 :borderRadius 8
 :index 1
-:scale [1 1]
-:pageId "(1-d,1-vector)-誤差"
-:scaleLevel "xl"
-:fill "red"
-:compact false
-:isAutoResizing false
-:type "logseq-portal"
-:size [504 80]
-:strokeType "line"
-:strokeWidth 2
-:opacity 1
-:id "65ec2170-cbbf-11ee-9e7e-fb4c9849e0bd"
-:noFill false
-:isLocked false
-:point [616 -40]
-:parentId "65cd999f-dacd-4c90-8584-53d222d92bab"
-:collapsedHeight 128.62600772455
-:nonce 1707973341497}}
-:block/updated-at 1707975333551} 
-{:block/created-at 1707975333552
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:stroke ""
-:index 2
-:scale [1 1]
-:fill ""
-:type "line"
-:strokeType "line"
-:strokeWidth 1
-:opacity 1
-:label ""
-:id "65ec2171-cbbf-11ee-9e7e-fb4c9849e0bd"
-:fontWeight 400
-:noFill true
-:point [473 2.34]
-:fontSize 20
-:handles 
-{:start 
-{:id "start"
-:canBind true
-:point [0 1.27]
-:bindingId "65ec2172-cbbf-11ee-9e7e-fb4c9849e0bd"}
-:end 
-{:id "end"
-:canBind true
-:point [139 0]
-:bindingId "65ec2173-cbbf-11ee-9e7e-fb4c9849e0bd"}}
-:decorations 
-{:end "arrow"}
-:parentId "65cd999f-dacd-4c90-8584-53d222d92bab"
-:nonce 1707973340905
-:italic false}}
-:block/updated-at 1707975333552} 
-{:block/created-at 1707975331568
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:blockType "P"
-:stroke "red"
-:rotation 0
-:collapsed true
-:borderRadius 8
-:index 3
 :scale [1 1]
 :pageId "(1-d,1-vector)-問題定義"
 :scaleLevel "xl"
@@ -124,17 +60,17 @@
 :id "3d3defe0-cbc1-11ee-9e7e-fb4c9849e0bd"
 :noFill false
 :isLocked false
-:point [416 160]
+:point [88 168]
 :parentId "65cd999f-dacd-4c90-8584-53d222d92bab"
 :collapsedHeight 251.18807242333298
-:nonce 1707974132272}}
-:block/updated-at 1707975331568} 
-{:block/created-at 1707975331569
+:nonce 1707974132380}}
+:block/updated-at 1708426083291} 
+{:block/created-at 1708426140322
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:stroke ""
-:index 4
+:index 2
 :scale [1 1]
 :fill ""
 :type "line"
@@ -145,7 +81,7 @@
 :id "3d3defe1-cbc1-11ee-9e7e-fb4c9849e0bd"
 :fontWeight 400
 :noFill true
-:point [150.02 49]
+:point [-3.24 89]
 :fontSize 20
 :handles 
 {:start 
@@ -156,45 +92,332 @@
 :end 
 {:id "end"
 :canBind true
-:point [412.4 107]
+:point [256.66 75]
 :bindingId "3d3e16f1-cbc1-11ee-9e7e-fb4c9849e0bd"}}
 :decorations 
 {:end "arrow"}
 :parentId "65cd999f-dacd-4c90-8584-53d222d92bab"
-:nonce 1707974131586
+:nonce 1707974131695
 :italic false}}
-:block/updated-at 1707975331569})
+:block/updated-at 1708426140322} 
+{:block/content "子問題"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65cd9ad9-b26c-40dd-8619-747b1557d84f"}
+:block/parent 
+{:block/uuid #uuid "65d481fb-c141-43b0-873a-ef64ba6ec46c"}
+:block/uuid #uuid "65d4838b-faa7-40a0-86bf-57356836df80"} 
+{:block/created-at 1708426225914
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke "red"
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 3
+:scale [1 1]
+:pageId "65d4838b-faa7-40a0-86bf-57356836df80"
+:scaleLevel "xl"
+:fill "red"
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [256 81.59990590302154]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "8d3f1df0-cfdd-11ee-9b23-d75eb24867aa"
+:noFill false
+:point [-312 184]
+:parentId "65d481fb-c141-43b0-873a-ef64ba6ec46c"
+:collapsedHeight 0
+:nonce 1708426096256}}
+:block/updated-at 1708426225914} 
+{:block/created-at 1708426539112
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 4
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "c9adb2b2-cfdd-11ee-9b23-d75eb24867aa"
+:fontWeight 400
+:noFill true
+:point [-205.86 89]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "c9adb2b0-cfdd-11ee-9b23-d75eb24867aa"}
+:end 
+{:id "end"
+:canBind true
+:point [9.16 91]
+:bindingId "93cdee21-cfde-11ee-9b23-d75eb24867aa"}}
+:decorations 
+{:end "arrow"}
+:parentId "65d481fb-c141-43b0-873a-ef64ba6ec46c"
+:nonce 1708426197463
+:italic false}}
+:block/updated-at 1708426539112} 
+{:block/created-at 1708426477739
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke "red"
+:rotation 0
+:collapsed true
+:borderRadius 8
+:index 5
+:scale [1 1]
+:pageId "(1-d,1-vector)-給定起點"
+:scaleLevel "xl"
+:fill "red"
+:compact false
+:isAutoResizing false
+:type "logseq-portal"
+:size [464 80]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "34b46130-cfde-11ee-9b23-d75eb24867aa"
+:noFill false
+:point [-32 336]
+:parentId "65d481fb-c141-43b0-873a-ef64ba6ec46c"
+:collapsedHeight 743.4500122070312
+:nonce 1708426377481}}
+:block/updated-at 1708426477739} 
+{:block/created-at 1708426480426
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke "red"
+:rotation 0
+:collapsed true
+:borderRadius 8
+:index 6
+:scale [1 1]
+:pageId "(1-d,1-vector)-給定任一點"
+:scaleLevel "xl"
+:fill "red"
+:compact false
+:isAutoResizing false
+:type "logseq-portal"
+:size [480 80]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "3e124c60-cfde-11ee-9b23-d75eb24867aa"
+:noFill false
+:point [-184 480]
+:parentId "65d481fb-c141-43b0-873a-ef64ba6ec46c"
+:collapsedHeight 114.80000305175781
+:nonce 1708426392768}}
+:block/updated-at 1708426480426} 
+{:block/created-at 1708426484070
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke "red"
+:rotation 0
+:collapsed true
+:borderRadius 8
+:index 7
+:scale [1 1]
+:pageId "(1-d,1-vector)-是否一定對齊"
+:scaleLevel "xl"
+:fill "red"
+:compact false
+:isAutoResizing false
+:type "logseq-portal"
+:size [496 80]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "44d8c3d0-cfde-11ee-9b23-d75eb24867aa"
+:noFill false
+:point [-464 600]
+:parentId "65d481fb-c141-43b0-873a-ef64ba6ec46c"
+:collapsedHeight 114.80000305175781
+:nonce 1708426404158}}
+:block/updated-at 1708426484070} 
+{:block/created-at 1708426498178
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 8
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "7a77e071-cfde-11ee-9b23-d75eb24867aa"
+:fontWeight 400
+:noFill true
+:point [-123.89 266.6]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "7a77b960-cfde-11ee-9b23-d75eb24867aa"}
+:end 
+{:id "end"
+:canBind true
+:point [94.05 65.4]
+:bindingId "7a77e070-cfde-11ee-9b23-d75eb24867aa"}}
+:decorations 
+{:end "arrow"}
+:parentId "65d481fb-c141-43b0-873a-ef64ba6ec46c"
+:nonce 1708426493983
+:italic false}}
+:block/updated-at 1708426498178} 
+{:block/created-at 1708426509583
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 9
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "7fe41f10-cfde-11ee-9b23-d75eb24867aa"
+:fontWeight 400
+:noFill true
+:point [-175.08 266.6]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "7fe3f800-cfde-11ee-9b23-d75eb24867aa"}
+:end 
+{:id "end"
+:canBind true
+:point [44.69 209.4]
+:bindingId "7fe3f801-cfde-11ee-9b23-d75eb24867aa"}}
+:decorations 
+{:end "arrow"}
+:parentId "65d481fb-c141-43b0-873a-ef64ba6ec46c"
+:nonce 1708426503117
+:italic false}}
+:block/updated-at 1708426509583} 
+{:block/created-at 1708426514580
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 10
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "82dc0250-cfde-11ee-9b23-d75eb24867aa"
+:fontWeight 400
+:noFill true
+:point [-268.71 274.6]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [16.32 0]
+:bindingId nil}
+:end 
+{:id "end"
+:canBind true
+:point [0 321.4]
+:bindingId "82dbdb41-cfde-11ee-9b23-d75eb24867aa"}}
+:decorations 
+{:end "arrow"}
+:parentId "65d481fb-c141-43b0-873a-ef64ba6ec46c"
+:nonce 1708426508195
+:italic false}}
+:block/updated-at 1708426514580})
 :pages (
-{:block/uuid #uuid "65cd999f-dacd-4c90-8584-53d222d92bab"
+{:block/uuid #uuid "65d481fb-c141-43b0-873a-ef64ba6ec46c"
 :block/properties 
 {:ls-type :whiteboard-page
 :logseq.tldraw.page 
-{:id "65cd999f-dacd-4c90-8584-53d222d92bab"
+{:id "65d481fb-c141-43b0-873a-ef64ba6ec46c"
 :name "(1-d,1-vector)問題-白板"
 :bindings 
-{:65ec2172-cbbf-11ee-9e7e-fb4c9849e0bd 
-{:id "65ec2172-cbbf-11ee-9e7e-fb4c9849e0bd"
-:type "line"
-:fromId "65ec2171-cbbf-11ee-9e7e-fb4c9849e0bd"
-:toId "ae1105c0-cbbe-11ee-9e7e-fb4c9849e0bd"
-:handleId "start"
-:point [0.5 0.5]
-:distance 4}
-:65ec2173-cbbf-11ee-9e7e-fb4c9849e0bd 
-{:id "65ec2173-cbbf-11ee-9e7e-fb4c9849e0bd"
-:type "line"
-:fromId "65ec2171-cbbf-11ee-9e7e-fb4c9849e0bd"
-:toId "65ec2170-cbbf-11ee-9e7e-fb4c9849e0bd"
-:handleId "end"
-:point [0.5 0.5]
-:distance 4}
-:3d3e16f0-cbc1-11ee-9e7e-fb4c9849e0bd 
+{:3d3e16f0-cbc1-11ee-9e7e-fb4c9849e0bd 
 {:id "3d3e16f0-cbc1-11ee-9e7e-fb4c9849e0bd"
 :type "line"
 :fromId "3d3defe1-cbc1-11ee-9e7e-fb4c9849e0bd"
 :toId "ae1105c0-cbbe-11ee-9e7e-fb4c9849e0bd"
 :handleId "start"
 :point [0.5 0.5]
+:distance 4}
+:82dbdb41-cfde-11ee-9b23-d75eb24867aa 
+{:id "82dbdb41-cfde-11ee-9b23-d75eb24867aa"
+:type "line"
+:fromId "82dc0250-cfde-11ee-9b23-d75eb24867aa"
+:toId "44d8c3d0-cfde-11ee-9b23-d75eb24867aa"
+:handleId "end"
+:point [0.39 0.61]
+:distance 4}
+:8620f421-cfde-11ee-9b23-d75eb24867aa 
+{:id "8620f421-cfde-11ee-9b23-d75eb24867aa"
+:type "line"
+:fromId "82dc0250-cfde-11ee-9b23-d75eb24867aa"
+:toId "8d3f1df0-cfdd-11ee-9b23-d75eb24867aa"
+:handleId "start"
+:point [0.28 0.48]
+:distance 4}
+:7fe3f801-cfde-11ee-9b23-d75eb24867aa 
+{:id "7fe3f801-cfde-11ee-9b23-d75eb24867aa"
+:type "line"
+:fromId "7fe41f10-cfde-11ee-9b23-d75eb24867aa"
+:toId "3e124c60-cfde-11ee-9b23-d75eb24867aa"
+:handleId "end"
+:point [0.14 0.57]
+:distance 4}
+:7fe3f800-cfde-11ee-9b23-d75eb24867aa 
+{:id "7fe3f800-cfde-11ee-9b23-d75eb24867aa"
+:type "line"
+:fromId "7fe41f10-cfde-11ee-9b23-d75eb24867aa"
+:toId "8d3f1df0-cfdd-11ee-9b23-d75eb24867aa"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:c9adb2b1-cfdd-11ee-9b23-d75eb24867aa 
+{:id "c9adb2b1-cfdd-11ee-9b23-d75eb24867aa"
+:type "line"
+:fromId "c9adb2b2-cfdd-11ee-9b23-d75eb24867aa"
+:toId "8d3f1df0-cfdd-11ee-9b23-d75eb24867aa"
+:handleId "end"
+:point [0.83 0.75]
 :distance 4}
 :3d3e16f1-cbc1-11ee-9e7e-fb4c9849e0bd 
 {:id "3d3e16f1-cbc1-11ee-9e7e-fb4c9849e0bd"
@@ -203,12 +426,52 @@
 :toId "3d3defe0-cbc1-11ee-9e7e-fb4c9849e0bd"
 :handleId "end"
 :point [0.5 0.5]
+:distance 4}
+:c9adb2b0-cfdd-11ee-9b23-d75eb24867aa 
+{:id "c9adb2b0-cfdd-11ee-9b23-d75eb24867aa"
+:type "line"
+:fromId "c9adb2b2-cfdd-11ee-9b23-d75eb24867aa"
+:toId "ae1105c0-cbbe-11ee-9e7e-fb4c9849e0bd"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:7a77e070-cfde-11ee-9b23-d75eb24867aa 
+{:id "7a77e070-cfde-11ee-9b23-d75eb24867aa"
+:type "line"
+:fromId "7a77e071-cfde-11ee-9b23-d75eb24867aa"
+:toId "34b46130-cfde-11ee-9b23-d75eb24867aa"
+:handleId "end"
+:point [0.19 0.66]
+:distance 4}
+:93cdee21-cfde-11ee-9b23-d75eb24867aa 
+{:id "93cdee21-cfde-11ee-9b23-d75eb24867aa"
+:type "line"
+:fromId "c9adb2b2-cfdd-11ee-9b23-d75eb24867aa"
+:toId "8d3f1df0-cfdd-11ee-9b23-d75eb24867aa"
+:handleId "end"
+:point [0.47 0.53]
+:distance 4}
+:82dbdb40-cfde-11ee-9b23-d75eb24867aa 
+{:id "82dbdb40-cfde-11ee-9b23-d75eb24867aa"
+:type "line"
+:fromId "82dc0250-cfde-11ee-9b23-d75eb24867aa"
+:toId "8d3f1df0-cfdd-11ee-9b23-d75eb24867aa"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:7a77b960-cfde-11ee-9b23-d75eb24867aa 
+{:id "7a77b960-cfde-11ee-9b23-d75eb24867aa"
+:type "line"
+:fromId "7a77e071-cfde-11ee-9b23-d75eb24867aa"
+:toId "8d3f1df0-cfdd-11ee-9b23-d75eb24867aa"
+:handleId "start"
+:point [0.5 0.5]
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("ae1105c0-cbbe-11ee-9e7e-fb4c9849e0bd" "65ec2170-cbbf-11ee-9e7e-fb4c9849e0bd" "65ec2171-cbbf-11ee-9e7e-fb4c9849e0bd" "3d3defe0-cbc1-11ee-9e7e-fb4c9849e0bd" "3d3defe1-cbc1-11ee-9e7e-fb4c9849e0bd")}}
+:shapes-index ("ae1105c0-cbbe-11ee-9e7e-fb4c9849e0bd" "3d3defe0-cbc1-11ee-9e7e-fb4c9849e0bd" "3d3defe1-cbc1-11ee-9e7e-fb4c9849e0bd" "8d3f1df0-cfdd-11ee-9b23-d75eb24867aa" "c9adb2b2-cfdd-11ee-9b23-d75eb24867aa" "34b46130-cfde-11ee-9b23-d75eb24867aa" "3e124c60-cfde-11ee-9b23-d75eb24867aa" "44d8c3d0-cfde-11ee-9b23-d75eb24867aa" "7a77e071-cfde-11ee-9b23-d75eb24867aa" "7fe41f10-cfde-11ee-9b23-d75eb24867aa" "82dc0250-cfde-11ee-9b23-d75eb24867aa")}}
 :block/journal? false
-:block/updated-at 1707975333551
+:block/updated-at 1708426539174
 :block/created-at 1707973023540
 :block/format :markdown
 :block/type "whiteboard"
