@@ -1,0 +1,16 @@
+- 原始序列 $S=\left\lbrace s_1,s_2,\ldots,s_{n}\right\rbrace$
+- 壓縮序列 $C=\left\lbrace c_1,c_2,\ldots,c_{n}\right\rbrace$
+- 誤差
+	- $e_{i}=\lvert c_{i}-s_{i}\rvert$
+	- $E_{i,j}=\sum_{i}^{j}e_{i}$
+-
+- 給定 $c_1=d$，求 $\min_{C}E_{1,n}(C)$
+-
+- $\text{table }D$
+	- $定義D_{i,j}如下，其中i=1,2,\ldots,n且j=-n,\ldots,-1,0,1,\ldots,n:$
+	- $D_{i,j}\quad\text{對於所有的}\quad i\in\{1,2,\ldots,n\}\quad\text{和}\quad j\in\{-n,\ldots,-1,0,1,\ldots,n\}$
+	- $D_{i,j}代表在c_{i}=c_1+\left(k\cdot j\right)時的最小E_{1,i}$
+- DP公式
+	- $D_{i,j}=\min\left\lbrace D_{i-1,j+1},D_{i-1,j-1}\right\rbrace+\lvert c_1+\left(k\cdot j\right)-s_{i}\rvert$
+-
+-
