@@ -1,7 +1,12 @@
+tags:: #[[(1-d,1-vector)問題]]
+
 - 原始序列  $S=\left\lbrace s_{1,}s_{2,}s_{3,}\ldots,s_{n}\right\rbrace$
 - 壓縮序列  $C=\left\lbrace c_{1,}c_{2,}c_{3,}\ldots,c_{n}\right\rbrace$
-- $c_{i}$和 $c_{i+1}$ 之間一定是差 $+k$ or $-k$
-- 目標是讓 $\sum_{i=1}^{n}\left|c_{i}-s_{i}\right|$ 最小
+- 誤差
+	- $e_{i}=\lvert c_{i}-s_{i}\rvert$
+	- $E_{i,j}=\sum_{i}^{j}e_{i}$
+- 找到 $k$，使的 $c_{i}=c_{i-1}+k \text{ or } c_{i-1}-k$
+- 求 $\min_{C}E_{1,n}(C)$
 -
 - 題目
 	- 處理一維整數序列，並限制moving vector為正負**k**
