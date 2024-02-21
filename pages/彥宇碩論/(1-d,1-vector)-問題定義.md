@@ -1,12 +1,11 @@
 tags:: #[[(1-d,1-vector)問題]]
 
 - 原始序列  $S=\left\lbrace s_{1,}s_{2,}s_{3,}\ldots,s_{n}\right\rbrace$
-- 壓縮序列  $C=\left\lbrace c_{1,}c_{2,}c_{3,}\ldots,c_{n}\right\rbrace$
+- 壓縮序列  $C=\left\lbrace c_{1,}c_{2,}c_{3,}\ldots,c_{n}\right\rbrace$滿足 $c_{i}=c_{i-1}+k \text{ or } c_{i-1}-k$
 - 誤差
 	- $e_{i}=\lvert c_{i}-s_{i}\rvert$
 	- $E_{i,j}=\sum_{i}^{j}e_{i}$
-- 找到 $k$，使的 $c_{i}=c_{i-1}+k \text{ or } c_{i-1}-k$
-- 求 $\min_{C}E_{1,n}(C)$
+- 找到 $k$以及 $C$，求 $\min_{C}E_{1,n}(C)$
 -
 - 題目
 	- 處理一維整數序列，並限制moving vector為正負**k**
