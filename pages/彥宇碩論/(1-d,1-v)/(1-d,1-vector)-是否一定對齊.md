@@ -6,7 +6,7 @@ tags:: #[[(1-d,1-vector)問題]]
 - 驗證猜想
 	- 做實驗觀察
 	  logseq.order-list-type:: number
-		- 暴力解實驗
+		- 暴力解實驗: 確實一定會對齊
 	- 證明 [[(1-d,1-vector)-給定序列的升降]]的解都會對齊
 	  logseq.order-list-type:: number
 -

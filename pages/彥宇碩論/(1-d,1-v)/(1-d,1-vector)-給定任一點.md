@@ -2,7 +2,7 @@ tags:: #[[(1-d,1-vector)問題]]
 
 - 題目
 	- [[(1-d,1-vector)-問題定義]]
-	- 給定 $k$
+	- 給定 $d$
 	- 給定 $c_{i}=t,t為一任意數$
 - 解題
 	- 將 $S$分為 $S_{l}=\left\lbrace s_1,s_2,\ldots,s_{i}\right\rbrace$以及 $S_{r}=\left\lbrace s_{i},s_{i+1},\ldots,s_{n}\right\rbrace$
